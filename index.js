@@ -5,7 +5,7 @@ const app = express();
 const morgan = require("morgan");
 const userRoutes = require("./app/routes/user");
 const postsRoutes = require("./app/routes/posts");
-const commentRoutes = require("./app/routes/posts");
+const commentRoutes = require("./app/routes/comments");
 
 app.use(bodyParser.urlencoded({ extended: true }));
 

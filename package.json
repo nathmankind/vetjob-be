@@ -4,6 +4,9 @@
   "description": "an app that helps vet job credibility",
   "main": "index.js",
   "license": "MIT",
+  "engines": {
+    "node": "11.x"
+  },
   "scripts": {
     "clean": "rm -rf build && mkdir build",
     "build-babel": "babel -d ./build ./app -s",

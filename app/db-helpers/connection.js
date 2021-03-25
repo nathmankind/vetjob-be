@@ -135,5 +135,3 @@ db.on("remove", () => {
 });
 
 module.exports = { createAllTables };
-
-require("make-runnable");

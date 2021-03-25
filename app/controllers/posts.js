@@ -91,7 +91,7 @@ const getOnePost = async (req, res) => {
     successMessage.data = dbResponse;
     return res.status(status.success).send(successMessage);
   } catch (error) {
-    rrorMessage.error = "An error Occured";
+    errorMessage.error = "An error Occured";
     return res.status(status.error).send(errorMessage);
   }
 };
